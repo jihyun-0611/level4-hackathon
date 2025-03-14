@@ -7,3 +7,9 @@ logs/
 airflow.cfg
 airflow.db
 webserver_config.py
+
+dataset/
+.venv/
+__pycache__/
+output/
+notebooks/
