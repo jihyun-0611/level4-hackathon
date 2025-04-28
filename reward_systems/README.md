@@ -40,7 +40,8 @@
 
 ### 3. Reward Model (실험적)
 - [OpenAssistant/reward-model-deberta-v3-large-v2](https://huggingface.co/OpenAssistant/reward-model-deberta-v3-large-v2)
-- **전략**: 파인튜닝 없이 점진적 unfreezing
+- **전략**: Gradual unfreezing 
+  - [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)
 - **결과**: 성능 미흡으로 실제 시스템에는 적용되지 않음
 
 
